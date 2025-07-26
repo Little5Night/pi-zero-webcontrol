@@ -1,0 +1,25 @@
+
+body.dark {
+    background: #181b20;
+    color: #fff;
+    font-family: sans-serif;
+}
+nav {
+    background: #23272b;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: 8px;
+    transition: background .2s;
+}
+nav a:hover {
+    background: #353940;
+}

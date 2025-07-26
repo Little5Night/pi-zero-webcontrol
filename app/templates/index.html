@@ -1,0 +1,11 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h1>Geräte</h1>
+<div id="devices-list">
+    <!-- Geräte werden hier gelistet -->
+    {% for name, dev in devices.items() %}
+      <div>{{ name }} ({{ dev.type }}) - Status: {{ dev.state }}</div>
+    {% endfor %}
+</div>
+{% endblock %}
